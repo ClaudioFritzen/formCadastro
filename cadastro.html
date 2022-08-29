@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +7,23 @@
     <title> Cadastro </title>
 </head>
 <body>
-    <section>
-        <div>
-            <label id="name" name="name"> Digite seu nome</label>
-            <input id="name" name="name" placeholder="seu nome....">
-            <label id="email" name="email">Digite seu email </label>
-            <input id="email" name="email" placeholder="seu email....">
-            <label id="senha" name="senha"> Crie uma senha</label>
-            <input id="senha" name="senha" placeholder="digite sua senha"> 
-            <label id="confirmar_senha" name="confirmar_senha"> Confirmar senha</label>
-            <input id="confirmarsenha" name="confirmarsenha" placeholder="confirmarsenha">
-            <button type="submit" id="confimar_nome"> Confirmar</button>
+    <section id="cadastro" class="container">
+        <h2>Cadastra-se </h2>
+        <div class="form-container">
+            <form action="">
+                <label for="txtName"> Nome completo</label>
+                <input type="text" id="txtName" name="name" placeholder="seu nome....">
 
+                <label for="txtEmail">Digite seu email </label>
+                <input tyoe="email" id="txtEmail" name="email" placeholder="seu email....">
+
+                <label for="txtSenha"> Crie uma senha</label>
+                <input type="password" id="txtSenha" name="senha" placeholder="digite sua senha"> 
+
+                <label for="txtConfirmarSenha"> Confirmar senha</label>
+                <input type="password"  id="confirmarsenha" name="confirmarsenha" placeholder="confirmarsenha">
+                <button type="submit" id="confimar_nome"> Confirmar</button>
+            </form>
         </div>
     </section>
 </body>
