@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+
+h1,h2,h3 {
+    font-family: var(--featured-font-family);
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 40px; 
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 95px;
+  }
+.container{
+    max-width: 1200px;
+}
+.sessao{
+    align-items: center;
+}
